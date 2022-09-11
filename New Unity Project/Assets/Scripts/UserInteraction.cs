@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class UserInteraction : MonoBehaviour
 {
     [SerializeField] GameObject prefab;
-
     public void InstantiateObject()
     {
         Instantiate(prefab);
