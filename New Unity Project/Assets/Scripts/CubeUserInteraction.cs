@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UserInteraction : MonoBehaviour
+public class CubeUserInteraction : MonoBehaviour
 {
     [SerializeField] GameObject prefab;
     public void InstantiateObject()
